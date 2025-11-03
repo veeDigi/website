@@ -1,0 +1,155 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ display: flex;
+ position: sticky;
+  justify-content: flex-end;
+  margin-top: -30px;
+  margin-right: 100px;
+  }
+li{
+    float: right;
+    margin: 10px;
+    border: none;
+    height: 4px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    animation-name: typing;
+   
+}
+
+
+a:hover{
+    
+    text-shadow: 1px 1px rgb(0, 0, 0);
+   
+    font-size: 1.1em;
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin-top: -290px;
+    margin-right: 80px;
+    transition: box-shadow 0.6s ease, transform 0.3s ease;
+   box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+
+.img:hover{
+  box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.9);
+  transform: scale(1.03);
+}
+h1{
+    font-size: medium;
+}
+.About{
+    margin-left: 80px;
+}
+
+
+#Aboutme{
+    width: 600px;
+    margin: 4px;
+    
+    margin-left: 250px;
+    border: 2px solid #1c1c1c;
+    padding: 50px;
+    padding-left: px;
+    justify-content: center;
+    font-size: 1.3em;
+    
+}
+.education{
+    display: flex;
+    justify-content: space-between;
+    height: 330px;
+    text-shadow: 0 0 0;
+}
+#myedu:hover{
+text-shadow: 1px 1px  rgba(250, 235, 215, 0.516);
+}
+.Edu{
+    margin:40px;
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0 0 3px 3px rgba(240, 248, 255, 0.627);
+
+    padding: 10px;
+    height: 250px;
+    width: 350px;
+    transition: width 3s, background-color 4s  ;
+}
+.Edu:hover{
+    cursor: pointer;
+    cursor: pointer;
+    width:400px ;
+    background-color: #bebebe51;
+    color:black ;
+    box-shadow: 0 0 5px 5px rgba(240, 248, 255, 0.627)
+}
+#work{
+    display: flex;
+    
+}
+.work{
+    margin:40px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+.social-icons{
+    display:flex;
+    padding-left: 80px;
+    padding-top: 40px;
+    
+
+}
+.social-icons a{
+    margin: 25px;
+    
+}
+.apps{
+     transition: box-shadow 0.6s ease, transform 0.3s ease;
+   box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  margin: 4px;
+border-radius: 30%;
+   border:0.2px solid whitesmoke;
+}
+.apps:hover{
+ box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.9);
+  transform: scale(1.03);
+}
+#Myskills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px;
+    justify-content: center;
+    border: 2px black;
+}
+#skillsimg {
+     margin:20px;
+    
+    border-radius: px;
+    
+    
+    
+}
+#Excel{
+    background-color:rgba(0, 0, 0, 0.619);
+    padding: 6px;
+   
+    margin: 3px;
+    border: 5px black;
+    border-radius: 5px;
+    box-shadow: 0  4px 6px 0 rgba(128, 128, 128, 0.023), 0 8px 8px 0 grey;
+}
+
